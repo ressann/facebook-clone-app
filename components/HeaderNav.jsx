@@ -6,8 +6,6 @@ import HeaderSearchNavItem from './HeaderSearchNavItem'
 import {SiFacebookgaming} from 'react-icons/si'
 
 
-
-
 const HeaderNav = () => {
   return (
     <div className="flex gap-2">
@@ -15,7 +13,7 @@ const HeaderNav = () => {
       <HeaderSearchNavItem Icon={MdOutlineOndemandVideo} title='Watch' activeClass={'flex'}/>
       <HeaderSearchNavItem Icon={BsShop} title='Marketplace' activeClass={'flex'}/>
       <HeaderSearchNavItem Icon={RiGroup2Line} title='Groups' activeClass={'flex'}/>
-      <HeaderSearchNavItem Icon={AiOutlineMenu} title='More' activeClass={'flex lg:hidden'}/>
+      <HeaderSearchNavItem Icon={AiOutlineMenu} title='More' activeClass={'flex lg:hidden relative group'}/>
       <HeaderSearchNavItem Icon={SiFacebookgaming} title='Game' activeClass={'hidden lg:flex'}/>
     </div>
   )
