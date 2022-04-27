@@ -3,14 +3,15 @@ import {getFirestore} from 'firebase/firestore'
 
 
 
-const firebaseConfig = {
-  apiKey: "AIzaSyCZC8BIgC9M0HWP88iAWxfVgQrC8GqLQ8o",
-  authDomain: "lrs-facebook-clone-app.firebaseapp.com",
-  projectId: "lrs-facebook-clone-app",
-  storageBucket: "lrs-facebook-clone-app.appspot.com",
-  messagingSenderId: "843003970476",
-  appId: "1:843003970476:web:a74e166e64ce23764e3009"
-};
+/* note : replace this command code by your firebase app */
+// const firebaseConfig = {
+//   apiKey: "your firebase api key",
+//   authDomain: "fb-clone-app-21425.firebaseapp.com",
+//   projectId: "fb-clone-app-21425",
+//   storageBucket: "fb-clone-app-21425.appspot.com",
+//   messagingSenderId: "972140146664",
+//   appId: "1:972140146664:web:e68f31698f8a8cafda7e5d"
+// };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
