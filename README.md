@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-### Note : to get play with this app create a .env.local in the folder and add( FACEBOOK_CLIENT_ID , FACEBOOK_CLIENT_SECRET AND NEXTAUTH_URL).
+### Note : to get play with this app create a .env.local in the folder and add your :( FACEBOOK_CLIENT_ID , FACEBOOK_CLIENT_SECRET AND NEXTAUTH_URL).
 
 First, run the development server:
 
